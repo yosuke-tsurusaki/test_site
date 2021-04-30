@@ -1,0 +1,658 @@
+                    html {
+                        font-size: 62.5%;
+                    }
+                    
+                    body {
+                        font-family: 'Noto Sans JP', sans-serif;
+                        ;
+                        line-height: 1.5;
+                        overflow-x: hidden;
+                        background-color: #fff;
+                        color: #444444;
+                        width: 100%;
+                        margin: 0 auto;
+                    }
+                    
+                    a {
+                        text-decoration: none;
+                        color: #444444;
+                    }
+                    
+                    img {
+                        width: 100%;
+                        height: auto;
+                        vertical-align: bottom;
+                    }
+                    
+                    body .container {
+                        width: 100%;
+                        max-width: 1180px;
+                        margin: 0 auto;
+                    }
+                    /* header */
+                    
+                    .header-inner {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        height: 13rem;
+                        padding-left: 2.1rem;
+                        padding-right: 1.1rem;
+                    }
+                    
+                    .clinic-logo {
+                        width: 26.3rem;
+                        height: 7.3rem;
+                    }
+                    
+                    .header-info {
+                        text-align: right;
+                    }
+                    
+                    .reception-time {
+                        font-size: 1.4rem;
+                        line-height: 1.4;
+                        margin-bottom: 0.8rem;
+                    }
+                    
+                    .phone-num img {
+                        width: 2.436rem;
+                        height: 2.457rem;
+                        vertical-align: middle;
+                    }
+                    
+                    .phone-num a {
+                        font-size: 2.4rem;
+                        font-weight: bold;
+                        line-height: 1;
+                        color: #21A937;
+                        vertical-align: middle;
+                    }
+                    
+                    @media screen and (max-width: 1024px) {
+                        .header-info {
+                            margin-right: 10px;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 767px) {
+                        .header-inner {
+                            display: block;
+                            padding-top: 20px;
+                            padding-left: 11px;
+                        }
+                        .clinic-logo {
+                            width: 150px;
+                            height: auto;
+                            margin: 0 auto 15px;
+                        }
+                        .header-info {
+                            text-align: center;
+                            margin-right: 0;
+                            margin-bottom: 0;
+                        }
+                    }
+                    /* fv */
+                    
+                    .fv {
+                        background-image: url(../img/fv.png);
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        height: 94.7rem;
+                        position: relative;
+                    }
+                    
+                    .fv-copy {
+                        writing-mode: vertical-rl;
+                        position: absolute;
+                        top: 13.3rem;
+                        left: 21.1rem;
+                    }
+                    
+                    .copy-left,
+                    .copy-right {
+                        background-color: #fff;
+                        font-size: 2.8rem;
+                        font-weight: bold;
+                        line-height: 1.4;
+                        height: 56.5rem;
+                        padding-top: 1.8rem;
+                        padding-left: 3.7rem;
+                        padding-right: 3.7rem;
+                        box-sizing: border-box;
+                    }
+                    
+                    .copy-left {
+                        margin-right: 8rem;
+                    }
+                    
+                    .copy-left span {
+                        color: #21A937;
+                    }
+                    
+                    @media screen and (max-width: 1024px) {
+                        .fv {
+                            background-position: 75%;
+                        }
+                        .fv-copy {
+                            top: 21.3rem;
+                            left: 6rem;
+                        }
+                        .copy-left,
+                        .copy-right {
+                            padding-left: 2.7rem;
+                            padding-right: 2.7rem;
+                            box-sizing: border-box;
+                        }
+                        .copy-left {
+                            margin-right: 6rem;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 767px) {
+                        .fv {
+                            background-size: 1132px 560px;
+                            background-position: 70% 0%;
+                            max-height: 560px;
+                        }
+                        .fv-copy {
+                            top: 13rem;
+                            left: 2rem;
+                        }
+                        .copy-left,
+                        .copy-right {
+                            height: 40rem;
+                            font-size: 2rem;
+                            line-height: 1;
+                            padding-top: 1.4rem;
+                            padding-left: 1.2rem;
+                            padding-right: 1.2rem;
+                            box-sizing: border-box;
+                        }
+                        .copy-left {
+                            margin-right: 2rem;
+                        }
+                    }
+                    /* about */
+                    
+                    .about-inner {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding-top: 16.2rem;
+                        padding-bottom: 8.2rem;
+                    }
+                    
+                    .about-left {
+                        width: 36.5316901%;
+                        max-width: 415px;
+                        margin-right: 4.4rem;
+                    }
+                    
+                    .about-title-top,
+                    .about-title-bottom {
+                        font-size: 2.4rem;
+                        font-weight: bold;
+                        line-height: 1.45;
+                    }
+                    
+                    .about-left span {
+                        background: linear-gradient(transparent 80%, #99E5A5 50%);
+                    }
+                    
+                    .about-title-bottom {
+                        padding-top: 3.2rem;
+                        margin-bottom: 3.7rem;
+                    }
+                    
+                    .about-text {
+                        font-size: 1.6rem;
+                        line-height: 2.4;
+                    }
+                    
+                    .about-right {
+                        width: 60.7394366%;
+                        max-width: 690px;
+                    }
+                    
+                    .about-right img {
+                        width: 100%;
+                        height: auto;
+                    }
+                    
+                    @media screen and (max-width: 1024px) {
+                        .about-inner {
+                            width: 100%;
+                            padding-left: 1.5rem;
+                            padding-right: 1.5rem;
+                            padding-bottom: 15rem;
+                            box-sizing: border-box;
+                        }
+                        .about-right {
+                            width: 56.2421875%;
+                        }
+                        .about-left {
+                            width: 40.828125%;
+                            margin-right: 2.5rem;
+                        }
+                        .about-text {
+                            font-size: 1.5rem;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 767px) {
+                        .about-inner {
+                            width: 100%;
+                            display: block;
+                            padding-left: 20px;
+                            padding-right: 20px;
+                            padding-bottom: 15rem;
+                            box-sizing: border-box;
+                        }
+                        .about-left,
+                        .about-right {
+                            width: 100%;
+                            margin: 0 auto;
+                        }
+                        .about-left {
+                            margin-bottom: 30px;
+                            text-align: center;
+                        }
+                        .about-text {
+                            font-size: 1.4rem;
+                        }
+                    }
+                    /* section */
+                    /* medical */
+                    
+                    .medical-news-section {
+                        background-color: #F5FCF8;
+                    }
+                    
+                    .section_title {
+                        font-size: 2.4rem;
+                        font-weight: bold;
+                        line-height: 1.6;
+                        text-align: center;
+                        margin-top: 8.2rem;
+                        margin-bottom: 7rem;
+                    }
+                    
+                    .section_title span {
+                        background: linear-gradient(transparent 80%, #99E5A5 50%);
+                    }
+                    
+                    .medical {
+                        padding-top: 8rem;
+                        text-align: center;
+                    }
+                    
+                    .section-text {
+                        font-size: 1.6rem;
+                        line-height: 2.4;
+                        margin-bottom: 3.3rem;
+                    }
+                    
+                    .section-text br {
+                        display: none;
+                    }
+                    
+                    .medical-inner {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                    
+                    .medical-item-box {
+                        border: 2px solid #c9c9c9;
+                        width: 32.2033898%;
+                        height: 59.1rem;
+                        background-color: #fff;
+                        padding-top: 4rem;
+                        padding-left: 3.1rem;
+                        padding-right: 2.5rem;
+                        margin-right: 2rem;
+                        text-align: center;
+                        position: relative;
+                    }
+                    
+                    .medical-item-box:nth-child(3) {
+                        margin-right: 0;
+                    }
+                    
+                    .medical-icon {
+                        width: 18.7rem;
+                        height: 18.7rem;
+                        position: absolute;
+                        left: 25%;
+                        bottom: 0;
+                    }
+                    
+                    .medical-title {
+                        font-size: 2.4rem;
+                        font-weight: bold;
+                        line-height: 1.6;
+                        margin-bottom: 4.5rem;
+                    }
+                    
+                    .medical-text {
+                        font-size: 1.6rem;
+                        line-height: 2.4;
+                    }
+                    
+                    @media screen and (max-width: 1024px) {
+                        .medical-inner {
+                            margin: 0 auto;
+                            padding-left: 15px;
+                            padding-right: 15px;
+                        }
+                        .medical-title {
+                            font-size: 2.4em;
+                        }
+                        .medical-text {
+                            font-size: 1.7em;
+                            line-height: 1.6;
+                            text-align: start;
+                        }
+                        .medical-icon {
+                            left: 25%;
+                            bottom: 0;
+                            margin: 0 auto;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 767px) {
+                        .medical-inner {
+                            display: block;
+                            margin: 0 auto;
+                            padding-left: 15px;
+                            padding-right: 15px;
+                        }
+                        .medical-item-box {
+                            width: 100%;
+                            height: 50rem;
+                            position: relative;
+                            margin-bottom: 10px;
+                            box-sizing: border-box;
+                        }
+                        .medical-item-box:last-child {
+                            margin-bottom: 8.1rem;
+                        }
+                        .medical-icon {
+                            position: absolute;
+                            left: 25%;
+                            bottom: 0;
+                        }
+                        .medical-title {
+                            font-size: 2.2rem;
+                            margin-bottom: 3rem;
+                        }
+                        .medical-text {
+                            font-size: 1.4rem;
+                        }
+                        .section-text br {
+                            display: initial;
+                        }
+                    }
+                    /* news */
+                    
+                    .news {
+                        padding-bottom: 11.2rem;
+                    }
+                    
+                    .news-list-box {
+                        border: 2px solid #c9c9c9;
+                        background-color: #fff;
+                        background-repeat: no-repeat;
+                        box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.16);
+                        border-radius: 30px;
+                        padding-left: 6.95rem;
+                        padding-right: 6.25rem;
+                        padding-top: 4.9rem;
+                        padding-bottom: 4.05rem;
+                        margin-bottom: 11.2rem;
+                        font-size: 1.6rem;
+                        font-weight: bold;
+                        line-height: 2.4;
+                        box-sizing: border-box;
+                    }
+                    
+                    .news-list-inner {
+                        display: flex;
+                        justify-content: left;
+                    }
+                    
+                    .news-date {
+                        display: flex;
+                    }
+                    
+                    .news-item {
+                        padding-bottom: 1.95rem;
+                        margin-bottom: 1.95rem;
+                        border-bottom: 1px solid #c9c9c9;
+                    }
+                    
+                    .news-list-inner time {
+                        color: #21A937;
+                        margin-right: 2.8rem;
+                    }
+                    
+                    .category {
+                        color: #fff;
+                        background-color: #444444;
+                        font-size: 1.2rem;
+                        font-weight: bold;
+                        width: 7.9rem;
+                        height: 2.5rem;
+                        margin-right: 2.8rem;
+                        text-align: center;
+                        padding-top: 0.4rem;
+                        padding-bottom: 0.4rem;
+                    }
+                    
+                    .view-all-btn {
+                        text-align: right;
+                    }
+                    
+                    .view-all-btn:after {
+                        content: "\025b6";
+                        margin-left: 0.752rem;
+                    }
+                    
+                    @media screen and (max-width: 1024px) {
+                        .news-list-box {
+                            margin-left: 1.5rem;
+                            margin-right: 1.5rem;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 767px) {
+                        .news-list-inner {
+                            display: block;
+                            text-align: start;
+                            padding-right: 15px;
+                            padding-left: 15px;
+                        }
+                        .news-list-box {
+                            width: 92%;
+                            padding-right: 3rem;
+                            padding-left: 3rem;
+                            padding-top: 4rem;
+                            padding-bottom: 3rem;
+                            margin-left: 15px;
+                            margin-right: 15px;
+                            box-sizing: border-box;
+                        }
+                    }
+                    /* footer */
+                    
+                    .footer-inner {
+                        padding-top: 17.2rem;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        box-sizing: border-box;
+                    }
+                    
+                    iframe {
+                        width: 100%;
+                        height: 44rem;
+                    }
+                    
+                    .footer-left {
+                        width: 53.3567354%;
+                    }
+                    
+                    .footer-right {
+                        width: 46.77490127%;
+                        margin-left: 4.05rem;
+                    }
+                    
+                    .footer-right img {
+                        width: 26.3rem;
+                        height: 7.3rem;
+                        margin-bottom: 2.5rem;
+                    }
+                    
+                    .address {
+                        font-size: 1.6rem;
+                        line-height: 2.4;
+                        margin-bottom: 2.5rem;
+                    }
+                    
+                    .address span {
+                        margin-right: 1.6rem;
+                    }
+                    
+                    .phone-num img {
+                        width: 2.436rem;
+                        height: 2.457rem;
+                        margin-bottom: 0;
+                    }
+                    
+                    .phone-num {
+                        margin-bottom: 2.85rem;
+                    }
+                    
+                    .works-holiday-info {
+                        font-size: 1.4rem;
+                        line-height: 2.7;
+                        border-top: 2px solid #e7e7e7;
+                        border-bottom: 2px solid #e7e7e7;
+                        padding-top: 2.15rem;
+                        padding-bottom: 2.35rem;
+                    }
+                    
+                    .works-inner {
+                        display: flex;
+                        justify-content: left;
+                        margin-bottom: 2rem;
+                    }
+                    
+                    .works-left {
+                        padding-right: 2.85rem;
+                    }
+                    
+                    .works-right {
+                        border-left: 2px solid #e7e7e7;
+                        padding-left: 2.85rem;
+                    }
+                    
+                    .day {
+                        background: linear-gradient(transparent 80%, #99E5A5 50%);
+                    }
+                    
+                    .am {
+                        margin-left: 2.3rem;
+                        margin-right: 1.8rem;
+                    }
+                    
+                    .holiday-inner {
+                        display: flex;
+                        justify-content: left;
+                    }
+                    
+                    .holiday {
+                        margin-right: 4.25rem;
+                    }
+                    
+                    .holiday-info {
+                        padding-left: 2.85rem;
+                        border-left: 2px solid #e7e7e7;
+                    }
+                    
+                    .footer-copy {
+                        display: block;
+                        text-align: right;
+                        margin-bottom: 17.3rem;
+                    }
+                    
+                    @media screen and (max-width: 1024px) {
+                        .footer-inner {
+                            margin-left: 1.5rem;
+                            margin-right: 1.5rem;
+                        }
+                        .footer-copy {
+                            margin-right: 1.5rem;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 767px) {
+                        .footer-inner {
+                            display: block;
+                            padding-left: 15px;
+                            padding-right: 15px;
+                            text-align: center;
+                        }
+                        .footer-left {
+                            width: 100%;
+                            margin-bottom: 25px;
+                        }
+                        .footer-right {
+                            width: 100%;
+                            margin-left: 0;
+                        }
+                        footer .clinic-logo {
+                            display: block;
+                            margin: 0 auto;
+                            margin-bottom: 15px;
+                        }
+                        .works-inner,
+                        .holiday-inner {
+                            display: block;
+                        }
+                        .works-inner {
+                            border-bottom: 2px solid #e7e7e7;
+                        }
+                        .works-right,
+                        .holiday-info {
+                            border: none;
+                            padding-left: 0;
+                        }
+                        .works-info:last-child {
+                            margin-bottom: 15px;
+                        }
+                        .works,
+                        .holiday {
+                            margin-right: 0;
+                        }
+                        .works-left {
+                            padding-right: 0;
+                        }
+                        .footer-copy {
+                            text-align: center;
+                            margin-top: 10px;
+                        }
+                        /* 要素をフワッと表示させる */
+                        .effect-fade {
+                            opacity: 0;
+                            transform: translate(0, 45px);
+                            transition: all 300ms;
+                        }
+                        .effect-fade.effect-scroll {
+                            opacity: 1;
+                            transform: translate(0, 0);
+                        }
+                        /* 要素をフワッと表示させる */
+                    }
